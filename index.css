@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("/img/background.gif");
+  color: rgb(152, 208, 223);
+}
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+header {
+  text-align: center;
+  padding: 2.5rem 0rem;
+  background-color: rgb(41, 48, 114);
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+header ul li + li {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: rgb(176, 187, 187);
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.6s;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+
+
+}
+
+.nav-link:hover {
+  background-color: rgb(36, 120, 230);
+
+  
+}
+
+.active {
+  border: 2px solid white;
+  background-color: rgb(74, 74, 202);
+}
+
+/*------------- PAGE HOME -------------- */
+.page-home {
+  text-align: center;
+}
+
+.page-home h1 {
+  margin: 1.2rem 0rem;
+}
+
+.page-home p {
+  margin-bottom: 1.2rem;
+}
+
+.page-home li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.page-home .img-wrapper {
+  margin-top: 1.2rem;
+}
+
+/*--------------- ABOUT-PAGE -------------------*/
+
+.about-page h1 {
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+.about-page .info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-page .info .text {
+  width: 50%;
+}
+
+.about-page .info p {
+  font-size: 14px;
+}
+
+.about-page .info .img-wrapper {
+  width: 45%;
+  margin-right: 0.8rem;
+}
+
+.about-page ul {
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.about-page .info + .info {
+  margin-top: 2rem;
+  border-top: 5px dotted rgb(245, 245, 245);
+  padding-top: 2rem;
+}
+
+/* -------------PHOTO-PAGE------------------- */
+
+.photo-page ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 1rem;
+}
+
+.photo-page .link-ref {
+  text-align: center;
+}
+
+
+/* ------------------ANIME-PAGE------------------------ */
+
+.anime-page li {
+  margin-top: 2rem;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.anime-page li h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.anime-page li p {
+  margin-top: 1.2rem;
+}
