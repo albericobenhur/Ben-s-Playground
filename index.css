@@ -26,7 +26,7 @@ img {
 
 header {
   text-align: center;
-  padding: 2.5rem 0rem;
+  padding: 2.3rem 0rem;
   background-color: rgb(41, 48, 114);
 }
 
@@ -38,7 +38,7 @@ header ul {
 }
 
 header ul li + li {
-  margin-left: 2rem;
+  margin-left: 1.4rem;
 }
 
 .nav-link {
@@ -125,6 +125,11 @@ header ul li + li {
   padding-top: 2rem;
 }
 
+.dinheiro {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
 /* -------------PHOTO-PAGE------------------- */
 
 .photo-page ul li {
@@ -159,4 +164,15 @@ header ul li + li {
 
 .anime-page li p {
   margin-top: 1.2rem;
+}
+/* ----------------VIDEO-PAGE---------------- */
+
+.video-page h1 {
+  text-align: center;
+  margin: 2rem 0rem 2rem;
+}
+
+.video-page h2 {
+  text-align: center;
+  margin: 1rem 0rem 1rem;
 }
