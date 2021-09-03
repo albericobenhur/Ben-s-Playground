@@ -15,7 +15,7 @@ body {
 }
 
 .text-info {
-  margin: 1rem 1rem 1rem;
+  margin: 1rem 1rem 2.5rem;
   padding: 2rem;
   background-color: rgba(188, 12, 241, 0.507);
   font-size: 1.1rem;
@@ -51,7 +51,6 @@ body {
 
 .bg-color-green {
   background-color: rgba(11, 250, 2, 0.493);
-  
 }
 
 main {
@@ -67,7 +66,7 @@ img {
 
 header {
   text-align: center;
-  padding: 2.3rem 0rem;
+  padding: 3rem 0rem;
   background-color: rgba(18, 133, 209, 0.452);
 }
 
@@ -79,7 +78,7 @@ header ul {
 }
 
 header ul li + li {
-  margin-left: 1.4rem;
+  margin-left: 1rem;
 }
 
 .nav-link {
@@ -89,14 +88,10 @@ header ul li + li {
   transition: background-color 0.6s;
   border-radius: 0.5rem;
   font-size: 2rem;
-
-
 }
 
 .nav-link:hover {
   background-color: rgb(36, 120, 230);
-
-  
 }
 
 .active {
@@ -110,7 +105,7 @@ header ul li + li {
 }
 
 .page-home h1 {
-  margin: 1.2rem 0rem;
+  margin: 4rem 0rem 4rem;
 }
 
 .page-home p {
@@ -178,13 +173,13 @@ header ul li + li {
   justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 1rem;
+  padding: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .photo-page .link-ref {
   text-align: center;
 }
-
 
 /* ------------------ANIME-PAGE------------------------ */
 
@@ -209,10 +204,19 @@ header ul li + li {
 
 .video-page h1 {
   text-align: center;
-  margin: 2rem 0rem 2rem;
+  margin: 3rem 0rem 3.2rem;
+  font-size: 2.3rem;
 }
 
 .video-page h2 {
   text-align: center;
-  margin: 1rem 0rem 1rem;
+  margin: 3.5rem 0rem 1rem;
+  font-size: 1.8rem;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
