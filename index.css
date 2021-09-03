@@ -11,8 +11,49 @@
 
 body {
   background-image: url("/img/background.gif");
-  color: rgb(152, 208, 223);
+  color: rgb(255, 255, 255);
 }
+
+.text-info {
+  margin: 1rem 1rem 1rem;
+  padding: 2rem;
+  background-color: rgba(188, 12, 241, 0.507);
+  font-size: 1.1rem;
+  border-radius: 1rem;
+}
+
+.bg-color-lblue {
+  background-color: rgba(64, 111, 155, 0.555);
+}
+
+.bg-color-red {
+  background-color: rgba(240, 27, 27, 0.438);
+  color: aliceblue;
+}
+
+.bg-color-orange {
+  background-color: rgba(255, 136, 0, 0.822);
+  color: rgb(255, 255, 255);
+}
+
+.bg-color-yellow {
+  background-color: rgba(255, 255, 5, 0.63);
+  color: black;
+}
+
+.bg-color-blue {
+  background-color: rgba(35, 35, 214, 0.589);
+}
+
+.bg-color-pink {
+  background-color: rgba(226, 19, 192, 0.548);
+}
+
+.bg-color-green {
+  background-color: rgba(11, 250, 2, 0.493);
+  
+}
+
 main {
   max-width: 600px;
   margin: 0 auto;
@@ -27,7 +68,7 @@ img {
 header {
   text-align: center;
   padding: 2.3rem 0rem;
-  background-color: rgb(41, 48, 114);
+  background-color: rgba(18, 133, 209, 0.452);
 }
 
 header ul {
@@ -42,7 +83,7 @@ header ul li + li {
 }
 
 .nav-link {
-  color: rgb(176, 187, 187);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 0.5rem;
   transition: background-color 0.6s;
@@ -60,7 +101,7 @@ header ul li + li {
 
 .active {
   border: 2px solid white;
-  background-color: rgb(74, 74, 202);
+  background-color: rgb(25, 97, 179);
 }
 
 /*------------- PAGE HOME -------------- */
@@ -127,7 +168,6 @@ header ul li + li {
 
 .dinheiro {
   text-align: center;
-  margin: 2rem 0rem;
 }
 
 /* -------------PHOTO-PAGE------------------- */
