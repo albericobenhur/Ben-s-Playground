@@ -1,0 +1,163 @@
+:root{
+  --color-primary:white;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("/img/background.gif");
+  color: rgb(255, 255, 255);
+}
+
+.text-info {
+  margin: 1rem 1rem 2.5rem;
+  padding: 2rem;
+  background-color: rgba(188, 12, 241, 0.507);
+  font-size: 1.1rem;
+  border-radius: 1rem;
+}
+
+.bg-color-lblue {
+  background-color: rgba(64, 111, 155, 0.555);
+}
+
+.bg-color-red {
+  background-color: rgba(240, 27, 27, 0.438);
+  color: aliceblue;
+}
+
+.bg-color-orange {
+  background-color: rgba(255, 136, 0, 0.822);
+  color: rgb(255, 255, 255);
+}
+
+.bg-color-yellow {
+  background-color: rgba(255, 255, 5, 0.63);
+  color: black;
+}
+
+.bg-color-blue {
+  background-color: rgba(35, 35, 214, 0.589);
+}
+
+.bg-color-pink {
+  background-color: rgba(226, 19, 192, 0.548);
+}
+
+.bg-color-green {
+  background-color: rgba(11, 250, 2, 0.493);
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+nav {
+  text-align: center;
+  padding: 3rem 0rem;
+  background-color: rgba(18, 133, 209, 0.452);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li + li {
+  margin-left: 0.5rem;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.6s;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.nav-link:hover {
+  background-color: rgb(36, 120, 230);
+}
+
+.toggle-wrapper {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.toggle-menu {
+  position: relative;
+  display: none;
+  height: 0.2rem;
+  width: 2rem;
+  background-color: var(--color-primary);
+}
+
+.toggle-menu::before {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  width: 2rem;
+  background-color: var(--color-primary);
+  top: -10px;
+  right: 0;
+  margin-bottom: 1rem;
+}
+
+.toggle-menu::after {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  width: 2rem;
+  background-color: var(--color-primary);
+  top: 10px;
+  right: 0;
+  margin-bottom: 1rem;
+}
+
+.active {
+  border: 2px solid white;
+  background-color: rgb(25, 97, 179);
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  nav ul li + li {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .text-info {
+    margin: 0.5rem;
+    padding: 0.8rem;
+  }
+  .toggle-menu {
+    display: block;
+  }
+
+  .d-none {
+    display: none;
+  }
+}

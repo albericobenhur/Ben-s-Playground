@@ -1,0 +1,53 @@
+.about-page h1 {
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+.about-page .info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-page .info .text {
+  width: 50%;
+}
+
+.about-page .info p {
+  font-size: 14px;
+}
+
+.about-page .info .img-wrapper {
+  width: 45%;
+  margin-right: 0.8rem;
+}
+
+.about-page ul {
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.about-page .info + .info {
+  margin-top: 2rem;
+  border-top: 5px dotted rgb(245, 245, 245);
+  padding-top: 2rem;
+}
+
+.dinheiro {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-page .info {
+    flex-direction: column;
+  }
+  .about-page .info .text {
+    width: 100%;
+  }
+
+  .about-page .info .img-wrapper {
+    width: 90%;
+    margin: 0rem;
+  }
+  
+}

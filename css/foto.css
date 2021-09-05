@@ -1,0 +1,13 @@
+.photo-page ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .photo-page .link-ref {
+    text-align: center;
+  }
