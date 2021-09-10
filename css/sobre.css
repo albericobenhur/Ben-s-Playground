@@ -32,6 +32,54 @@
   border-top: 5px dotted rgb(245, 245, 245);
   padding-top: 2rem;
 }
+.form-title {
+  align-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.form-contact {
+  padding: 1.5rem;
+  margin: 1.5rem 0rem;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 0.2rem;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: black;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 1.2rem;
+}
+
+.form-group textarea {
+resize: none;
+
+}
+
+.form-group textarea,
+  .form-group input {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 2px solid gray;
+}
+
+  .form-group textarea:focus,
+  .form-group input:focus {
+  box-shadow: 0px 0px 0px 0.25rem rgb(13 10 253/25%);
+  outline: 0;
+  border: 2px solid #86b7fe;
+}
+
+.form-contact button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
 
 .dinheiro {
   text-align: center;
