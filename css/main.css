@@ -78,6 +78,8 @@ nav ul {
   justify-content: center;
   align-items: center;
   list-style: none;
+  position: relative;
+
 }
 
 nav ul li + li {
@@ -95,6 +97,11 @@ nav ul li + li {
 
 .nav-link:hover {
   background-color: rgb(36, 120, 230);
+}
+
+nav ul li:hover ul {
+  display: block;
+  position: absolute;
 }
 
 .toggle-wrapper {
